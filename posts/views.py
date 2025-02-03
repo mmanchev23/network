@@ -174,7 +174,7 @@ def profile(request, username):
                 'totalfollower': totalfollower,
                 'followingEachOther': following_each_other
             }
-       
+
             return render(request, "posts/profile.html", context)
 
 
