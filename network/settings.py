@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "RENDER" not in os.environ
 
-ALLOWED_HOSTS = ["127.0.0.1", "network.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "network.mmanchev23.dev", "network-7zss.onrender.com"]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
 
